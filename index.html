@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8825b3ad5b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="A.png" class="image"> -->
+                 <h1><span>B</span>HARGAV <span>P</span>V</h1>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full-Stack Developer</p>
+                <h1>Hi,I m <span>Sai</span><br> Bhargav Here To Satisfy <br> Your Needs</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="row">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="B.jpeg">
+                </div>
+                <div class="about-col-2">
+                 <h1 class="sub-title">About Me</h1>
+                 <p>
+                    I am an enthusiastic and curious individual with a relentless passion for learning and experimenting with new technologies. From a young age, I've been fascinated by the endless possibilities that technology offers and have continually sought to expand my knowledge and skills. My inquisitive nature drives me to explore cutting-edge advancements and apply innovative solutions to real-world problems. Whether it's coding, robotics, or emerging tech trends, I am always eager to dive in, learn, and contribute. My journey is fueled by a deep-seated curiosity and a desire to make a meaningful impact through technology.
+                 </p>   
+
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Machine Learning</span><br>working on classification and regression models</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Natural Language Processing</span><br>Creating models using NLP</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2022 a 3 month intern</span><br>Data Science intern at Coincent</li>
+                        <li><span>2024 a 1 month intern</span><br>As Data Analyst at Devahuthi Software Solutions</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2025</span><br>SASTRA University, Thanjavur, TN <br>B-tech CSE</li>
+                        <li><span>2021</span><br>Kendriya Vidyalaya No-2, Trichy-25 <br>Class 12 Boards <br>CBSE</li>
+                        <li><span>2019</span><br>Kendriya Vidyalaya No-2, Trichy-25 <br>Class 10 Boards <br>CBSE</li>
+                    </ul>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------services------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>can built any sort of web designs and tasks of your choice using Frontend-HTML,CSS,javaScript and Backend-Django</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>ML & DL models</h2>
+                    <p>Can help your out in classificationregression models preprocessing and etc in ML and ANN,RNN,LSTM models in DL</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>NLP model</h2>
+                    <p>can help you out in most of the NLP tasks</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+     </div>
+     <!-- ------portfolio------->
+    <div id="portfolio">
+        <div class="container" class="grid-container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="worklist grid-container">
+                
+                <div class="work" >
+                    <img src="C.jpg" class="grid-item">
+                    <div class="layer">
+                        <h3>Cancer Website</h3>
+                        <p>Built a website using Django which calculates Risk Score of a Cancer patient using a method called Entropy using 37 major 
+                            factors/attributes based on which it predicts what treatment to be suggested</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="D.jpg" class="grid-item">
+                    <div class="layer">
+                        <h3>Calculate MPG using Regression model</h3>
+                        <p>Built a website using Django which calculates MPG of a vihicle using a machine learning regression model and using mongodb database at the backend</p>
+                        <a href="https://github.com/pvbhargav/MPG-application"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            
+            
+                <div class="work" >
+                    <img src="E.jpg" class="grid-item">
+                    <div class="layer">
+                        <h3>Chatbot</h3>
+                        <p>Built a Chatbot using encoder decoder which can answer any of the questions related to the content provided as an input</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="F.jpg" class="grid-item">
+                    <div class="layer">
+                        <h3>Airline Passenger Satisfaction using ML & DL algorithms</h3>
+                        <p>Predicting Airline passenger Satisfaction picking 5 significant factors out of 22 factors and applied 8 machine learning algorithm and 2 deep learning algorithm to predict the passenger Satisfaction</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!-- ------contact----- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>pvbhargav017@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8903167920</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/pv_bhargav_017/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sai-bhargav-p-v-453605224/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/pvbhargav"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="bhargav_resume.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form id="my-form" action="https://formspree.io/f/xqazawkb" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button id="my-form-button" type="submit" class="btn btn2">Submit</button>
+                        <p id="my-form-status"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright"></div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links")
+        var tabcontents=document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+        var form = document.getElementById("my-form");
+  
+  async function handleSubmit(event) {
+    event.preventDefault();
+    var status = document.getElementById("my-form-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+          'Accept': 'application/json'
+      }
+    }).then(response => {
+      if (response.ok) {
+        status.innerHTML = "Thanks for your submission!";
+        form.reset()
+      } else {
+        response.json().then(data => {
+          if (Object.hasOwn(data, 'errors')) {
+            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+          } else {
+            status.innerHTML = "Oops! There was a problem submitting your form"
+          }
+        })
+      }
+    }).catch(error => {
+      status.innerHTML = "Oops! There was a problem submitting your form"
+    });
+  }
+  form.addEventListener("submit", handleSubmit)
+    </script>
+</body>
+</html>
